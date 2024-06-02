@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&family=Montaga&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Sedan+SC&display=swap');
+
+p{
+    font-family: "Montaga", serif;
+}
+h1{
+    font-family: "Sedan SC", serif;
+    font-weight: bold;
+}
+
+.carousel-item {
+    height: 700px;
+}
+.carousel-caption{
+    text-shadow: #000000 0.2em 0.2em 0.2em;
+}
+.carousel-caption > p{
+    text-shadow: #000000 0.9em 0.2em 0.2em 0.9em;
+}
+
+/* Section 1 */
+#texto1-section1{
+    font-size: 20px;
+    text-align: justify;
+    justify-content: center;
+    padding: 50px;
+}
+#img1-section1{
+    float: right;
+    padding: 50px;
+    padding-top: 10px;
+    padding-right:0 ;
+    border-radius: 4%;
+}
+
+#navbar-background{
+    background-color: #111010;
+    color: aliceblue;
+}
+
+/* Gradientes */
+
+#gradiente1{
+    height: 100px;
+    background-image: linear-gradient(to bottom, #070606, #000000);
+}
+#gradiente2{
+    height: 100px;
+    background-image: linear-gradient(to bottom, #000000, #091312 );
+}
+#gradiente3{
+    height: 80px;
+    background-image: linear-gradient(to bottom, #091312, #071a14);
+}
+/* Gradientes */
+
+/* Section 2 */
+#texto1-section2 {
+    padding: 100px;
+}
+#title1-section2 {
+    font-family: "Alfa Slab One";
+    font-weight: 50;
+    text-align: center;
+    justify-content: center;
+    font-size: 70px;
+    color: #ffff;
+    
+}
+#section2{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+#content-wrapper {
+    display: flex;
+    align-items: flex-start;
+    
+}
+#text-content {
+    font-size: 20px;
+    padding-right: 100px;
+    flex: 1;
+}
+#div-ticket{
+    background-color: #000000;
+    width: 100%;
+    padding-top:50px ;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    
+
+}
+#img1-section2 img {
+    margin-left: 20px;
+    margin-top: -60px;
+    width: 350px;
+    border-radius: 3%;
+    box-shadow: rgb(148, 0, 0) 2px 2px 17px 3px ;
+    margin-top: 50px;
+}
+#img2-section2 img {
+    width: 70%;    
+    height: 350px; 
+    margin-top: -110px;
+    object-fit: cover; 
+    border-radius: 3%;
+    box-shadow: rgb(148, 0, 0) 2px 2px 19px 3px ;
+}
+
+/* section3 */
+#section3{
+    width: 100%;
+    background-color: rgb(9, 19, 18);
+    color: white;
+}
+#texto1-section3 {
+    padding: 100px;
+}
+#title1-section3 {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 50px;
+}
+#content-wrapper3 {
+    display: flex;
+    align-items: flex-start;
+    
+}
+#text-content3 {
+    font-size: 20px;
+    padding-right: 100px;
+    flex: 1;
+}
+#img1-section3 {
+    margin-left: 20px;
+}
+#img1-section3 img {
+    width: 350px;
+    border-radius: 3%;
+    box-shadow: rgb(56, 218, 201) 2px 2px 17px 3px ;
+}
+#img2-section3 img {
+    width: 70%;    
+    height: 450px; 
+    object-fit: cover; 
+    border-radius: 2%;
+    margin-top: -90px;
+    box-shadow: rgb(56, 218, 201) 2px 2px 17px 3px ;
+}
+
+/* section4 */
+#section4{
+    width: 100%;
+    background-color: rgb(7, 26, 20);
+    color: white;
+}
+
+#texto1-section4 {
+    padding: 100px;
+}
+
+#title1-section4 {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 50px;
+}
+
+#content-wrapper4 {
+    display: flex;
+    align-items: flex-start;
+    
+}
+
+#text-content4 {
+    font-size: 20px;
+    padding-right: 100px;
+    flex: 1;
+}
+
+#img1-section4 {
+    margin-left: 20px;
+}
+
+#img1-section4 img {
+    width: 350px;
+    border-radius: 3%;
+    box-shadow: rgb(13, 97, 76) 2px 2px 17px 4px ;
+}
+
+#img2-section4 img {
+    width: 70%;    
+    height: 450px; 
+    object-fit: cover; 
+    border-radius: 2%;
+    margin-top: -130px;
+    box-shadow: rgb(13, 97, 76) 2px 2px 17px 4px ;
+}
+
+#imgsSeoul{
+    float: right;
+    padding: 50px;
+    padding-top: 10px;
+    padding-right:0;
+    height: 450px;
+    border-radius: 4%;
+}
+#div_influencia_roxa{
+    margin-top: 100px;
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+    padding: 50px;
+    background-color: #593F55;
+    width: 100%;
+    color: aliceblue;
+    
+}
+#camera_vetor{
+    width: 500px;
+    float: right;
+    padding: 50px;
+    padding-top: 10px;
+    padding-right:0;
+    border-radius: 4%;
+}
+#div_influencia_laranja{
+    padding: 50px;
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 3%;
+    background-color: #FF3F2C;
+    width: 100%;
+    color: aliceblue;
+    
+}
+#laranja{
+    height: 450px;
+    float: right;
+    padding: 50px;
+    padding-top: 10px;
+    padding-right:0;
+    border-radius: 4%;
+    object-fit: cover;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#background-card{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-card{
+    width: 100%;
+    max-width: 1435px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 1.25rem;
+    transition: all 400ms;
+}
+#card{
+    flex:1;
+    height: 100%;
+    transition: all 400ms;
+    cursor: pointer;
+}
+
+#card > img {
+    display: block;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+#card :nth-child(odd){
+    translate: 0 -20px;
+}
+#card :nth-child(even){
+    translate: 0 20px;
+}
+#container:hover #card:not(:hover) {
+    filter: grayscale(100%);
+}
+#card:hover {
+    flex: 3;
+}
+
+#background-footer{
+    margin-top: -30px;
+    color: aliceblue;
+    height: 300px;
+    padding-top: 30px;
+    background-color: #111010;
+}
+
+body::-webkit-scrollbar{display: none;} /* Chrome, Safari, Opera */
+body {-ms-overflow-style: none;} /* IE & Edge */
+html {scrollbar-width: none;} /* Firefox */
